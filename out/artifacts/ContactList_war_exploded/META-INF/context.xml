@@ -1,0 +1,12 @@
+<Resource name="jdbc/ContactList"
+          auth="Container"
+          description="DB Connection"
+          username="root"
+          password="qwerty"
+          type="javax.sql.DataSource"
+          maxActive="100"
+          maxIdle="30"
+          maxWait="10000"
+          driverClassName="com.mysql.jdbc.Driver"
+          url="jdbc:mysql://localhost:3306/ContactList"/>
+
